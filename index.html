@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <!-- Daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<!-- sm -->
+<form id="form-input">
+
+    <input id="input1" type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs" />
+    <button type="submit" class="btn btn-sm">Add</button>
+</form>
+<div class="" id="toe-field" style="justify-content: center; display: grid; grid-template-columns: repeat(3, 100px); grid-template-rows: repeat(3, 100px); gap: 10px;">
+
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+  <button class="btn btn-lg tac-toe"></button>
+</div>
+<div style="justify-content: center; display: grid;">
+
+  <button id="clear-toe" class="btn btn-wide btn-primary">Clear</button>
+</div>
+   <div class="overflow-x-auto">
+  <table class="table table-zebra">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody id="table-item">
+      <!-- row 1 -->
+      <tr id="list-item">
+       
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
+
+<script src="app.js"></script>
